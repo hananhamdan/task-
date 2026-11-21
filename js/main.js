@@ -85,3 +85,8 @@ addToCard.forEach( () => {
 });
 readcategories();
 setproduct();
+const changtheem=document.querySelector('[data-theemptn]')
+
+changtheem.onclick=function(){
+    document.body.classList.toggle('dark')
+}
