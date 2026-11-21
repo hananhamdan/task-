@@ -77,6 +77,11 @@ const setproduct = async () => {
         }
        
 }
+const addToCard =document.querySelectorAll('[data-action="view-details"]') 
 
+addToCard.forEach( () => {
+    alert('helo')
+    
+});
 readcategories();
 setproduct();
